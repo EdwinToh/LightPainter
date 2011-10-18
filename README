@@ -1,0 +1,27 @@
+LightPainter is an experimental app to recreate the popular long exposure photography
+otherwise known as Light Painting. 
+
+Full source available at http://github.com/darksuiyoken/LightPainter
+
+
+
+Simple Implementation
+---------------------
+
+1. Import the class
+
+import com.designfission.effects.LightPainer;
+
+2. Initialize the class (with camera width and height)
+
+var lightPainter = new LightPainter(640,480);
+lightPainter.init();
+
+3. Methods
+
+	=======================================
+	lightPainter.startRecord();
+	=======================================
+	lightPainter.stopRecord();
+	=======================================
+	lightPainter.exportImage();		
